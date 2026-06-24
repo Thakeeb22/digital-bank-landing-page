@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .btn {
+    @apply rounded-full bg-gradient-to-tr from-pri-cyan to-pri-green px-4 py-3 text-white font-semibold;
+  }
+  .btn-hover{
+    @apply opacity-80
+  }
+}
